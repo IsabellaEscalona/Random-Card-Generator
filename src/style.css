@@ -1,5 +1,106 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: #003900;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 600px;
+}
+
+.card {
+    width: 600px;
+    height: 800px;
     background: white;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 10px 10px 5px;
+
+}
+
+.card p {
+    text-align: center;
+    font-size: 160px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display';
+}
+
+div.pica-diamante:before {
+    content: "♦";
+    position: absolute;
+    font-size: 150px;
+    color: red;
+    top: 8px;
+    left: 50px;
+}
+
+div.pica-diamante:after {
+    content: "♦";
+    position: absolute;
+    font-size: 150px;
+    color: red;
+    bottom: 8px;
+    right: 50px;
+}
+
+
+div.pica-corazon:before {
+    content: "♥";
+    position: absolute;
+    font-size: 150px;
+    color: red;
+    top: 8px;
+    left: 50px;
+}
+
+div.pica-corazon:after {
+    content: "♥";
+    position: absolute;
+    font-size: 150px;
+    color: red;
+    bottom: 8px;
+    right: 50px;
+}
+
+div.pica-espada:before {
+    content: "♠";
+    position: absolute;
+    font-size: 150px;
+    color: black;
+    top: 8px;
+    left: 50px;
+}
+
+div.pica-espada:after {
+    content: "♠";
+    position: absolute;
+    font-size: 150px;
+    color: black;
+    bottom: 8px;
+    right: 50px;
+}
+
+div.pica-trebol:before {
+    content: "♣";
+    position: absolute;
+    font-size: 150px;
+    color: black;
+    top: 8px;
+    left: 50px;
+}
+
+div.pica-trebol:after {
+    content: "♣";
+    position: absolute;
+    font-size: 150px;
+    color: black;
+    bottom: 8px;
+    right: 50px;
 }
